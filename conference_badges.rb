@@ -21,7 +21,4 @@ def printer (speak)
   assign_rooms(speak).each do |value|
     puts value
   end
-  assign_rooms(speak). do |value|
-    puts value
-  end
 end
