@@ -3,6 +3,6 @@ def badge_maker(x)
 end
 
 def batch_badge_creator(speakers)
-  speakers.collect do {|name| badge_maker(name)}
+  speakers.collect {|name| badge_maker(name)}
   end
 end
