@@ -3,7 +3,7 @@ def badge_maker(a)
 end
 
 def batch_badge_creator(speak)
-  speakers.collect {|name| badge_maker(name)}
+  speak.collect {|name| badge_maker(name)}
 end
 
 def assign_rooms(speak)
